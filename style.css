@@ -1,9 +1,11 @@
 .background_header{
     background-color: black;
-    height: 100px;
-    width: 100%;
-    display: flex; 
-    justify-content: space-around;
+    height: 100%;
+    width: 202vh;
+    display:inline-flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin-bottom: 0px;
     
 }
 
@@ -11,19 +13,17 @@
     color: white;
 }
 
-.img_comp1{
-    width: 50%;
-    height: 30%;
+.espaco_back{
+    width: 202vh;
+    height: 80vh;
+    display: block;
+    background-image: url(iss059e006521.webp);
+    background-repeat: no-repeat;
+    background-size: 202vh 80vh;
+    margin-top: 0px;
 }
 
-
-.texto{
-    display: flex;
-   
+.div1{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-
-.seta_img{
-    width: 50px;
-    height: 50px;
-}
-
